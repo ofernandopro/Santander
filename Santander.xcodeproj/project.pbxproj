@@ -7,15 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDBBE49C2A71E12A0048003F /* SantanderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBBE49B2A71E12A0048003F /* SantanderApp.swift */; };
+		ED40C1542A71E23500979752 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1532A71E23500979752 /* Extensions.swift */; };
+		ED40C15B2A71E24000979752 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1562A71E24000979752 /* Feature.swift */; };
+		ED40C15C2A71E24000979752 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1572A71E24000979752 /* Home.swift */; };
+		ED40C15D2A71E24000979752 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1582A71E24000979752 /* Card.swift */; };
+		ED40C15E2A71E24000979752 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1592A71E24000979752 /* News.swift */; };
+		ED40C15F2A71E24000979752 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C15A2A71E24000979752 /* Account.swift */; };
+		ED40C1622A71E24600979752 /* HomeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1612A71E24600979752 /* HomeAPIClient.swift */; };
+		ED40C1672A71E25B00979752 /* SantanderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1662A71E25B00979752 /* SantanderApp.swift */; };
+		ED40C1772A71E27100979752 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1692A71E27100979752 /* AsyncImage.swift */; };
+		ED40C1782A71E27100979752 /* NavigationBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C16A2A71E27100979752 /* NavigationBarAppearance.swift */; };
+		ED40C1792A71E27100979752 /* PageControlAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C16B2A71E27100979752 /* PageControlAppearance.swift */; };
+		ED40C17A2A71E27100979752 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C16D2A71E27100979752 /* CardViewModel.swift */; };
+		ED40C17B2A71E27100979752 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C16E2A71E27100979752 /* HomeViewModel.swift */; };
+		ED40C17C2A71E27100979752 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C16F2A71E27100979752 /* AccountViewModel.swift */; };
+		ED40C17D2A71E27100979752 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1702A71E27100979752 /* NewsViewModel.swift */; };
+		ED40C17E2A71E27100979752 /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1712A71E27100979752 /* BalanceViewModel.swift */; };
+		ED40C17F2A71E27100979752 /* FeatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1722A71E27100979752 /* FeatureViewModel.swift */; };
+		ED40C1802A71E27100979752 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1742A71E27100979752 /* HomeView.swift */; };
+		ED40C1812A71E27100979752 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1752A71E27100979752 /* BalanceView.swift */; };
+		ED40C1822A71E27100979752 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40C1762A71E27100979752 /* AccountView.swift */; };
+		ED6C1F0C2A72BA760000A58A /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = ED6C1F0B2A72BA760000A58A /* Then */; };
+		ED6C1F0F2A72BB270000A58A /* PocketSVG in Frameworks */ = {isa = PBXBuildFile; productRef = ED6C1F0E2A72BB270000A58A /* PocketSVG */; };
+		ED6C1F122A72BC220000A58A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = ED6C1F112A72BC220000A58A /* Kingfisher */; };
 		EDBBE49E2A71E12A0048003F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBBE49D2A71E12A0048003F /* ContentView.swift */; };
 		EDBBE4A02A71E12D0048003F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBBE49F2A71E12D0048003F /* Assets.xcassets */; };
 		EDBBE4A32A71E12D0048003F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBBE4A22A71E12D0048003F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED40C1532A71E23500979752 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ED40C1562A71E24000979752 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		ED40C1572A71E24000979752 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ED40C1582A71E24000979752 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		ED40C1592A71E24000979752 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		ED40C15A2A71E24000979752 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		ED40C1612A71E24600979752 /* HomeAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAPIClient.swift; sourceTree = "<group>"; };
+		ED40C1632A71E24F00979752 /* OpenSans_Condensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_Condensed-Regular.ttf"; sourceTree = "<group>"; };
+		ED40C1642A71E24F00979752 /* OpenSans_Condensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_Condensed-Bold.ttf"; sourceTree = "<group>"; };
+		ED40C1652A71E24F00979752 /* OpenSans_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		ED40C1662A71E25B00979752 /* SantanderApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SantanderApp.swift; path = "../../santander-dev-week-2023-ios/Santander/SantanderApp.swift"; sourceTree = "<group>"; };
+		ED40C1692A71E27100979752 /* AsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		ED40C16A2A71E27100979752 /* NavigationBarAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarAppearance.swift; sourceTree = "<group>"; };
+		ED40C16B2A71E27100979752 /* PageControlAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlAppearance.swift; sourceTree = "<group>"; };
+		ED40C16D2A71E27100979752 /* CardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		ED40C16E2A71E27100979752 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		ED40C16F2A71E27100979752 /* AccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		ED40C1702A71E27100979752 /* NewsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		ED40C1712A71E27100979752 /* BalanceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceViewModel.swift; sourceTree = "<group>"; };
+		ED40C1722A71E27100979752 /* FeatureViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureViewModel.swift; sourceTree = "<group>"; };
+		ED40C1742A71E27100979752 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ED40C1752A71E27100979752 /* BalanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		ED40C1762A71E27100979752 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		EDBBE4982A71E12A0048003F /* Santander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Santander.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDBBE49B2A71E12A0048003F /* SantanderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantanderApp.swift; sourceTree = "<group>"; };
 		EDBBE49D2A71E12A0048003F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDBBE49F2A71E12D0048003F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDBBE4A22A71E12D0048003F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -26,12 +70,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6C1F122A72BC220000A58A /* Kingfisher in Frameworks */,
+				ED6C1F0C2A72BA760000A58A /* Then in Frameworks */,
+				ED6C1F0F2A72BB270000A58A /* PocketSVG in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED40C1522A71E23500979752 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED40C1532A71E23500979752 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED40C1552A71E23F00979752 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED40C1562A71E24000979752 /* Feature.swift */,
+				ED40C1572A71E24000979752 /* Home.swift */,
+				ED40C1582A71E24000979752 /* Card.swift */,
+				ED40C1592A71E24000979752 /* News.swift */,
+				ED40C15A2A71E24000979752 /* Account.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED40C1602A71E24600979752 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ED40C1612A71E24600979752 /* HomeAPIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ED40C1682A71E27100979752 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ED40C1692A71E27100979752 /* AsyncImage.swift */,
+				ED40C16A2A71E27100979752 /* NavigationBarAppearance.swift */,
+				ED40C16B2A71E27100979752 /* PageControlAppearance.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ED40C16C2A71E27100979752 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED40C16D2A71E27100979752 /* CardViewModel.swift */,
+				ED40C16E2A71E27100979752 /* HomeViewModel.swift */,
+				ED40C16F2A71E27100979752 /* AccountViewModel.swift */,
+				ED40C1702A71E27100979752 /* NewsViewModel.swift */,
+				ED40C1712A71E27100979752 /* BalanceViewModel.swift */,
+				ED40C1722A71E27100979752 /* FeatureViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ED40C1732A71E27100979752 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED40C1742A71E27100979752 /* HomeView.swift */,
+				ED40C1752A71E27100979752 /* BalanceView.swift */,
+				ED40C1762A71E27100979752 /* AccountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EDBBE48F2A71E12A0048003F = {
 			isa = PBXGroup;
 			children = (
@@ -51,7 +159,16 @@
 		EDBBE49A2A71E12A0048003F /* Santander */ = {
 			isa = PBXGroup;
 			children = (
-				EDBBE49B2A71E12A0048003F /* SantanderApp.swift */,
+				ED40C1522A71E23500979752 /* Extensions */,
+				ED40C1552A71E23F00979752 /* Model */,
+				ED40C1602A71E24600979752 /* Network */,
+				ED40C1682A71E27100979752 /* Utils */,
+				ED40C1732A71E27100979752 /* View */,
+				ED40C16C2A71E27100979752 /* ViewModel */,
+				ED40C1662A71E25B00979752 /* SantanderApp.swift */,
+				ED40C1642A71E24F00979752 /* OpenSans_Condensed-Bold.ttf */,
+				ED40C1632A71E24F00979752 /* OpenSans_Condensed-Regular.ttf */,
+				ED40C1652A71E24F00979752 /* OpenSans_Condensed-SemiBold.ttf */,
 				EDBBE49D2A71E12A0048003F /* ContentView.swift */,
 				EDBBE49F2A71E12D0048003F /* Assets.xcassets */,
 				EDBBE4A12A71E12D0048003F /* Preview Content */,
@@ -83,6 +200,11 @@
 			dependencies = (
 			);
 			name = Santander;
+			packageProductDependencies = (
+				ED6C1F0B2A72BA760000A58A /* Then */,
+				ED6C1F0E2A72BB270000A58A /* PocketSVG */,
+				ED6C1F112A72BC220000A58A /* Kingfisher */,
+			);
 			productName = Santander;
 			productReference = EDBBE4982A71E12A0048003F /* Santander.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +233,11 @@
 				Base,
 			);
 			mainGroup = EDBBE48F2A71E12A0048003F;
+			packageReferences = (
+				ED6C1F0A2A72BA760000A58A /* XCRemoteSwiftPackageReference "Then" */,
+				ED6C1F0D2A72BB270000A58A /* XCRemoteSwiftPackageReference "PocketSVG" */,
+				ED6C1F102A72BC210000A58A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = EDBBE4992A71E12A0048003F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +264,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED40C1792A71E27100979752 /* PageControlAppearance.swift in Sources */,
+				ED40C1812A71E27100979752 /* BalanceView.swift in Sources */,
+				ED40C17F2A71E27100979752 /* FeatureViewModel.swift in Sources */,
+				ED40C17C2A71E27100979752 /* AccountViewModel.swift in Sources */,
+				ED40C1772A71E27100979752 /* AsyncImage.swift in Sources */,
+				ED40C1672A71E25B00979752 /* SantanderApp.swift in Sources */,
+				ED40C15B2A71E24000979752 /* Feature.swift in Sources */,
+				ED40C1782A71E27100979752 /* NavigationBarAppearance.swift in Sources */,
+				ED40C15D2A71E24000979752 /* Card.swift in Sources */,
+				ED40C17D2A71E27100979752 /* NewsViewModel.swift in Sources */,
 				EDBBE49E2A71E12A0048003F /* ContentView.swift in Sources */,
-				EDBBE49C2A71E12A0048003F /* SantanderApp.swift in Sources */,
+				ED40C15C2A71E24000979752 /* Home.swift in Sources */,
+				ED40C17A2A71E27100979752 /* CardViewModel.swift in Sources */,
+				ED40C17B2A71E27100979752 /* HomeViewModel.swift in Sources */,
+				ED40C17E2A71E27100979752 /* BalanceViewModel.swift in Sources */,
+				ED40C1622A71E24600979752 /* HomeAPIClient.swift in Sources */,
+				ED40C15E2A71E24000979752 /* News.swift in Sources */,
+				ED40C15F2A71E24000979752 /* Account.swift in Sources */,
+				ED40C1822A71E27100979752 /* AccountView.swift in Sources */,
+				ED40C1542A71E23500979752 /* Extensions.swift in Sources */,
+				ED40C1802A71E27100979752 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +483,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED6C1F0A2A72BA760000A58A /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		ED6C1F0D2A72BB270000A58A /* XCRemoteSwiftPackageReference "PocketSVG" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pocketsvg/PocketSVG";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		ED6C1F102A72BC210000A58A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED6C1F0B2A72BA760000A58A /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED6C1F0A2A72BA760000A58A /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		ED6C1F0E2A72BB270000A58A /* PocketSVG */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED6C1F0D2A72BB270000A58A /* XCRemoteSwiftPackageReference "PocketSVG" */;
+			productName = PocketSVG;
+		};
+		ED6C1F112A72BC220000A58A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED6C1F102A72BC210000A58A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EDBBE4902A71E12A0048003F /* Project object */;
 }
